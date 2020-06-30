@@ -1,0 +1,22 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file '.\\linear_regression_TF1.py'
+ outputting to 'linear_regression_TF2.py'
+--------------------------------------------------------------------------------
+
+15:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+16:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+21:6: INFO: Added keywords to args of function 'tf.reduce_sum'
+22:12: INFO: Renamed 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+24:5: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+25:13: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
